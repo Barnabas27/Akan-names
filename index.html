@@ -17,30 +17,35 @@
 <p>The Akan people of Ghana frequently name their children after the day of the week they were born. The gender too plays a major 'role' in the naming. 
 To forge the spirit of pan-africanism here is a little platform to have fun and get to know if you lived with the Akan what your name would be. Feel free to fill your name, gender and precisely your day,month and year of birth. Have fun won't you? and don't have the fun alone, share with your friends and family<span >&#128513;</span>.</p>
 <form>
-    <div class="form-group">
+    <!-- <div class="form-group">
         <label for = "exampleInputEmail">Email address:</label>
         <input type="email" class = "form-control" id="exampleInputEmail" aria-describeby = "emailHelp">
         <small id = "emailHelp" class = "form-text text-muted"><span style="font-weight: bold; color:white" >this is optional(we will send the result to your email.)</span></small>
-    </div>
+    </div> -->
     <div class="form-group">
         <label for="inputYearOfBirth"><span style = "color:white; font-weight:bold">Enter your year of birth:</span></label>
-        <input type="number" class="form-control" id="exampleInputYearOfBirth">
+        <input type="number" class="form-control" id="exampleInputYearOfBirth" required min="1" max="2050">
       </div> 
       <div class="form-group">
         <label for="inputMonth">Enter month:</label>
-        <input type="number" class="form-control" id="exampleInputMonth">
+        <input type="number" class="form-control" id="exampleInputMonth" required min="1" max="12">
       </div>
       <div class="form-group">
         <label for="exampleInputDay">Enter date:</label>
-        <input type="number" class="form-control" id="exampleInputDate">
+        <input type="number" class="form-control" id="exampleInputDate" required min="1" max="31">
       </div>
-      <label for="exampleInputMonth">Choose your gender:</label>
+      <div class="form-group">
+        <label for="exampleInputDay">choose your gender</label>
+        <input type="radio" class="form-control" id="male" name="gender">Male
+        <input type="radio" class="form-control" id="female" name="gender">Female
+      </div>
+      <!-- <label for="exampleInputMonth">Choose your gender:</label>
       <select class="form-control"> 
-        <option>Male</option>
-        <option>Female</option>
-    </select> 
+        <option id="male">Male</option>
+        <option id="female">Female</option>
+    </select>  -->
     <br>
-      <button type="submit" class="btn btn-primary mb-2">SUBMIT</button>
+      <button type="button" class="btn btn-primary mb-2" onclick="myButton()">SUBMIT</button>
 </form>
 </div>
 
