@@ -1,5 +1,16 @@
+@font-face {
+    src: url(/fonts/SansitaSwashed-VariableFont_wght.ttf);
+    font-family: swashed;
+    }
 .header {
     text-align:center;
     background-color: #37CBC2;
     justify-content: center;
+}
+body {
+    background-image:url("/images/1200px-Flag_of_Ghana.svg.png") ;
+}
+.header{
+    font-family:swashed;
+    
 }
