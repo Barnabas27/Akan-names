@@ -6,6 +6,7 @@ This is a web application that takes the ``user's birthday``, calculates the ``t
 >Barnabas Kamau.
 ## Screenshot.
 <image src="https://github.com/Barnabas27/Akan-names/blob/master/images/akan-names" width ="100%">
+
 ## Technologies used.
 * Html 5.
 * Css
