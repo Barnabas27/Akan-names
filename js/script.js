@@ -1,7 +1,7 @@
 // var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 // var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 // var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-//incoporation of the formula here
+//initiating process from click of the button
 
 function myButton() {
     var year = document.getElementById("exampleInputYearOfBirth").value;
@@ -9,7 +9,7 @@ function myButton() {
     var day = document.getElementById("exampleInputDate").value;
     var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
+//getting user's input
     var sth = new Date();
     sth.setDate(parseInt(day));
     sth.setMonth(parseInt(month)-1);
