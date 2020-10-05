@@ -25,4 +25,4 @@ This is a web application that takes the ``user's birthday``, calculates the ``t
  >https://opensource.org/licenses/MIT
  ## To collaborate:
  reach me on [Email]:
- bkamau032@gmail.com
+ (bkamau032@gmail.com)

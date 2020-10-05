@@ -1,6 +1,8 @@
 // var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 // var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 // var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+//incoporation of the formula here
+
 function myButton() {
     var year = document.getElementById("exampleInputYearOfBirth").value;
     var month = document.getElementById("exampleInputMonth").value;
@@ -17,21 +19,21 @@ function myButton() {
     if (babs == 0){
         alert("Sunday");
     }else if(babs == 1){
-        alert("Monday");
+        alert(" You were born on a Monday");
     }
     else if(babs == 2){
-        alert("Tuesday");
+        alert("You were born on a Tuesday");
     }
     else if(babs == 3){
-        alert("Wednesday");
+        alert("You were born on a Wednesday");
     }
     else if(babs == 4){
-        alert("Thursday");
+        alert("You were born on a Thursday");
     }
     else if(babs == 5){
-        alert("Friday");
+        alert("You were born on a Friday");
     }else if(babs == 6){
-        alert("Saturday");
+        alert("You were born on a Saturday");
     }
     if(year =="" ||year < 1 || year > 2050){
         alert("Enter a valid year");
